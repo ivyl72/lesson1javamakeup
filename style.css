@@ -1,0 +1,121 @@
+#red{
+    color:red;
+}
+#blue{
+    color: blue;
+}
+#heading{
+    text-align: center;
+}
+.styled {
+    border: 30;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+
+  body {
+      font-family: sans-serif;
+      width: 50%;
+      max-width: 800px;
+      min-width: 480px;
+      margin: 0 auto;
+  }
+
+ #red{
+    color:red;
+}
+#blue{
+    color: blue;
+}
+#heading{
+    text-align: center;
+}
+.styled {
+    border: 30;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+
+  body {
+      font-family: sans-serif;
+      width: 50%;
+      max-width: 800px;
+      min-width: 480px;
+      margin: 0 auto;
+  }
+
+  .button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+  .increaseButton{
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .decreaseButton{
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .guessSubmit{
+    background-color: yellow;
+    color: black;
+  }
