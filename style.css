@@ -96,26 +96,24 @@
     font-size: 16px;
 
   }
+  /*modify the colors and the size of the button*/
   .increaseButton{
-    background-color: red;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    background-color: red;/*set the button to red*/
+    color: white; /*set the word inside white*/
+    padding: 15px 32px; /*sets space around the button*/
+    text-align: center; /*align text*/
+    font-size: 16px; /*sets font size for the words inside the button*/
   }
+  /*modify the colors and the size of the button*/
   .decreaseButton{
-    background-color: blue;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    background-color: blue; /*set the button to blue*/
+    color: white; /*set the word inside white*/
+    padding: 15px 32px;/*sets space around the button*/
+    text-align: center; /*align text*/
+    font-size: 16px; /*sets font size for the words inside the button*/
   }
-
+/*modify the colors and the size of the button*/
   .guessSubmit{
-    background-color: yellow;
-    color: black;
+    background-color: yellow;/*set the button to yellow*/
+    color: black;/*set the word inside black*/
   }

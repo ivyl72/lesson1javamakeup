@@ -25,12 +25,14 @@ function start() {
         guess--;
         alert("OOPS SORRY!! TRY A SMALLER NUMBER");
         chance.innerHTML="Tries: " + guess;
+        /* adds to the log*/
         document.getElementById("userG").innerHTML += (x + ", ");
     }
     else {
         guess--;
         alert("OOPS SORRY!! TRY A GREATER NUMBER");
         chance.innerHTML="Tries: " + guess;
+        /*adds to the log*/
         document.getElementById("userG").innerHTML += (x  + ", ");
     }
 
