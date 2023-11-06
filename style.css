@@ -84,6 +84,7 @@
       max-width: 800px;
       min-width: 480px;
       margin: 0 auto;
+      background-color: blanchedalmond; /*added background color*/
   }
 
   .button{
